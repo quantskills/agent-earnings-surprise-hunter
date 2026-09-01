@@ -47,10 +47,10 @@ def load_agent_module():
     """加载 agent-earnings-surprise-hunter.py（文件名含 '-'，不能直接 import）。
 
     模块顶层会构造 OpenAI() 客户端，缺少 api_key 时会抛错。自检为离线场景、
-    从不调用 llm_analyze，故此处注入一个占位 key 仅用于让客户端构造通过。
+    从不调用 llm_analyze，故此处注入一个非密钥占位值仅用于让客户端构造通过。
     """
     import os
-    os.environ.setdefault("OPENAI_API_KEY", "sk-selfcheck-placeholder")
+    os.environ.setdefault("OPENAI_API_KEY", "selfcheck-placeholder")
     here = os.path.dirname(os.path.abspath(__file__))
     path = os.path.join(here, "agent-earnings-surprise-hunter.py")
     spec = importlib.util.spec_from_file_location("agent_esh", path)

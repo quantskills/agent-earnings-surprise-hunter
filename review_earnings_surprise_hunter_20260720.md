@@ -20,7 +20,7 @@
 **位置**：`.env` 文件  
 **现状**：
 ```
-OPENAI_API_KEY=sk-c9d70b753b56446f8a5f8f1a868b88f0
+OPENAI_API_KEY=<redacted>
 PANDA_DATA_USERNAME=13812345678
 PANDA_DATA_PASSWORD=panda123
 ```
