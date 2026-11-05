@@ -70,3 +70,7 @@ skill-earnings-surprise-hunter
 - API接口不存在时返回明确错误
 - 数据为空时返回中性评分
 - 0值净利润做特殊处理
+
+## Pandadata compatibility
+
+[Pandadata 1.0.6 compatibility](references/pandadata-compatibility.md) — exact SDK baseline, validation scope, and shared guidance for all supported agent runtimes.
