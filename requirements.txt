@@ -1,4 +1,4 @@
 openai>=1.0.0
 python-dotenv>=1.0.0
-panda-data>=0.0.9
+panda-data==1.0.6
 httpx>=0.24.0

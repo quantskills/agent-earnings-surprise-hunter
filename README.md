@@ -85,3 +85,6 @@ Surprise × Audit combination matrix.
 - Python 3.10+
 - OpenAI API Key (DeepSeek)
 - PandaData Account
+
+
+Pandadata 兼容维护：[abgyjaguo](https://github.com/abgyjaguo)，保留原项目作者署名。
